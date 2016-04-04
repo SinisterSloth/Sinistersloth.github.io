@@ -36,7 +36,7 @@ Patterns - reusable parts of our design
   display: inline-block;
   padding: 1.4em 2em;
   border-radius: 50em;
-  background-color: #2B2E31;
+  background-color: #D9D9D9;
   box-shadow: 0 1px 20px rgba(238, 187, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.4);
   color: #CF020E;
   font-size: 1.3rem;
@@ -69,7 +69,7 @@ Intro page
   z-index: 2;
   height: 100vh;
   width: 100%;
-  background-color: #D9D9D9;
+  background-color: #2B2E31;
   /* used to vertical align its content */
   display: table;
   -webkit-transition: -webkit-transform 0.5s;
@@ -95,7 +95,7 @@ Intro page
   top: 95%;
   height: 24px;
   width: 24px;
-  background: url(../img/cd-arrow-back.svg) no-repeat center center;
+  background: url(/squeezebox/img/cd-arrow-back.svg) no-repeat center center;
   opacity: 0;
   -webkit-transition: opacity 0.2s;
   -moz-transition: opacity 0.2s;
