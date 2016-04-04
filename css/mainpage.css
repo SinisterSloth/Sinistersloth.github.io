@@ -51,7 +51,7 @@ a {
     }
 }
 
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 2000px) {
     .cd-title {
         height: 200px;
         line-height: 300px;
@@ -63,7 +63,7 @@ a {
 
 .cd-intro {
     width: 90%;
-    max-width: 768px;
+    max-width: 1170px;
     text-align: center;
 }
 
@@ -81,18 +81,18 @@ a {
 
 @media only screen and (min-width: 1170px) {
     .cd-intro {
-        margin: 6em auto;
+        margin: 3em auto;
     }
 }
 
 .cd-headline {
     font-size: 3rem;
-    line-height: 1.2;
+    line-height: 2;
 }
 
 @media only screen and (min-width: 768px) {
     .cd-headline {
-        font-size: 4.4rem;
+        font-size: 4rem;
         font-weight: 300;
     }
 }

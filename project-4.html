@@ -18,7 +18,6 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
-
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -32,6 +31,11 @@
 </head>
 
 <body>
+
+    <audio autoplay="autoplay" controls="controls">
+        <source src="./assets/img/sounds/orgasmfemale.wav"/>
+        <source src="assets/img/sounds/maleorgasm.wav"/>
+    </audio>
 
     <!-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -68,21 +72,6 @@
         </div>
     </div>
 
-
-    <!-- *****************************************************************************************************************
-BLUE WRAP
-***************************************************************************************************************** -->
-    <div id="blue">
-        <div class="container">
-            <div class="row">
-                <h3>Single Project.</h3>
-            </div>
-            <!-- /row -->
-        </div>
-        <!-- /container -->
-    </div>
-    <!-- /blue -->
-
     <!-- *****************************************************************************************************************
 TITLE & CONTENT
 ***************************************************************************************************************** -->
@@ -104,132 +93,18 @@ TITLE & CONTENT
                 <div class="spacing"></div>
                 <h4>NSFW: PIXELATION</h4>
                 <p>With the help of photographers & anyone with a smartphone, take a sneak peek into the personal lives and images of their food fancies. Censored from peeking eyes, these images are bound to excite, tease, and stimulate your fantasies. Take a wild trip with us into the world of <b>foodporn</b>.</p>
-                <input type="button" value="New Image" onclick="location.reload();">
-            </div>
 
+                <!--    SOUND CLICK-->
+                <a onclick="playSounds()">
+                    <button onclick="location.reload();">Next Image</button>
+                </a>
+                <div id="element"></div>
+
+            </div>
         </div>
         <! --/row -->
     </div>
     <! --/container -->
-
-    <!-- *****************************************************************************************************************
-PORTFOLIO SECTION
-***************************************************************************************************************** -->
-    <div id="portfoliowrap">
-        <div class="portfolio-centered">
-            <h3>More Food</h3>
-            <div class="recentitems portfolio">
-                <div class="portfolio-item graphic-design">
-                    <div class="he-wrap tpl6">
-                        <img src="assets/img/portfolio/portfolio_09.jpg" alt="">
-                        <div class="he-view">
-                            <div class="bg a0" data-animate="fadeIn">
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_09.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                            </div>
-                            <!-- he bg -->
-                        </div>
-                        <!-- he view -->
-                    </div>
-                    <!-- he wrap -->
-                </div>
-                <!-- end col-12 -->
-
-                <div class="portfolio-item web-design">
-                    <div class="he-wrap tpl6">
-                        <img src="assets/img/portfolio/portfolio_02.jpg" alt="">
-                        <div class="he-view">
-                            <div class="bg a0" data-animate="fadeIn">
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_02.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                            </div>
-                            <!-- he bg -->
-                        </div>
-                        <!-- he view -->
-                    </div>
-                    <!-- he wrap -->
-                </div>
-                <!-- end col-12 
--->
-
-                <div class="portfolio-item graphic-design">
-                    <div class="he-wrap tpl6">
-                        <img src="assets/img/portfolio/portfolio_06.jpg" alt="">
-                        <div class="he-view">
-                            <div class="bg a0" data-animate="fadeIn">
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_06.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                            </div>
-                            <!-- he bg -->
-                        </div>
-                        <!-- he view -->
-                    </div>
-                    <!-- he wrap -->
-                </div>
-                <!-- end col-12 -->
-
-                <div class="portfolio-item graphic-design">
-                    <div class="he-wrap tpl6">
-                        <img src="assets/img/portfolio/portfolio_04.jpg" alt="">
-                        <div class="he-view">
-                            <div class="bg a0" data-animate="fadeIn">
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_04.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                            </div>
-                            <!-- he bg -->
-                        </div>
-                        <!-- he view -->
-                    </div>
-                    <!-- he wrap -->
-                </div>
-                <!-- end col-12 -->
-
-                <div class="portfolio-item graphic-design">
-                    <div class="he-wrap tpl6">
-                        <img src="assets/img/portfolio/portfolio_05.jpg" alt="">
-                        <div class="he-view">
-                            <div class="bg a0" data-animate="fadeIn">
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_04.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                            </div>
-                            <!-- he bg -->
-                        </div>
-                        <!-- he view -->
-                    </div>
-                    <!-- he wrap -->
-                </div>
-                <!-- end col-12 -->
-
-
-            </div>
-            <!-- portfolio -->
-        </div>
-        <!-- portfolio container -->
-    </div>
-    <!--/Portfoliowrap -->
-
-
-
-    <!-- *****************************************************************************************************************
-FOOTER
-***************************************************************************************************************** -->
-    <div id="footerwrap">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <h4>Social Links</h4>
-                    <div class="hline-w"></div>
-                    <p>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                    </p>
-                </div>
-            </div>
-            <! --/row -->
-        </div>
-        <! --/container -->
-    </div>
-    <! --/footerwrap -->
-
     <!-- Bootstrap core JavaScript
 ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -246,6 +121,35 @@ FOOTER
         var imagePath = ('./assets/img/pixelbg/' + Math.floor(Math.random() * 100) + '.jpg');
         $('#carousel-example-generic').html('<img src="' + imagePath + '" />');
     </script>
+
+    <a onclick="playSounds()">
+        <class button></class>
+    </a>
+    <div id="element"></div>
+    <script>
+        var sounds = "./assets/img/sounds/orgasmfemale.wav",
+            "./assets/img/sounds/maleorgasm.wav",
+            oldSounds = [];
+
+        var playSounds = function () {
+            var index = Math.floor(Math.random() * (sounds.length)),
+                thisSound = sounds[index];
+
+            oldSounds.push(thisSound);
+            sounds.splice(index, 1);
+
+            if (sounds.length < 1) {
+                sounds = oldSounds.splice(0, oldSounds.length);
+            }
+
+            $("#element").html("<audio autoplay><source src=\"" + thisSound + "\" type=\"audio/wav\"><embed src=\"" + thisSound + "\" hidden=\"true\" autostart=\"true\" /></audio>");
+        }
+    </script>
+
+
+
+
+
     <script>
         // Portfolio
         (function ($) {

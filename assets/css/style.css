@@ -1,12 +1,4 @@
 /*	################################################################
-
-	Author: Carlos Alvarez
-	URL: http://alvarez.is
-
-	Project Name: SOLID - Bootstrap 3 Theme
-	Version: 1.0
-	URL: http://alvarez.is
-	
 ################################################################# */ 
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900);
@@ -35,6 +27,8 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 }
+
+<button type="submit"><i class="icon-refresh"></i> Test</button>
 
 p { 
 	padding: 0; 
@@ -82,8 +76,6 @@ a:focus {
 .centered {
 	text-align: center
 }
-
-<a class="style.css" href="javascript:location.reload();" >Reload Page</a>
 
 /*	################################################################
 	BOOTSTRAP MODIFICATIONS & TWEAKS
@@ -403,7 +395,6 @@ csmall2 {
 .badge-theme {
 	background: #00b3fe;
 }
-
 /* Contact Page */
 #contactwrap {
 	background: url(../img/contact.jpg) no-repeat center top;
@@ -425,3 +416,5 @@ csmall2 {
     -o-background-size: cover;
     background-size: cover;
 }
+
+    
